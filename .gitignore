@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Mac-specific files
+.DS_Store
+
+# MLflow local artifacts and tracking files
+mlruns/
+artifacts/
+mlflow.db
+backend.db
